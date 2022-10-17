@@ -23,8 +23,11 @@ a:hover {
   cursor: pointer;
 }
 
-
-
+.navbar-nav a:hover {
+  color: #BF5837;
+  border-top: 2px solid #BF5837;
+  transition: none;
+}
 
 #page-loading-blocs-notifaction {
   position: fixed;
@@ -1051,3 +1054,4 @@ h4 {
 .auteur {
   font-size: 1.3em;
 }
+
